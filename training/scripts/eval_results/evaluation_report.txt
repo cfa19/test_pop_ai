@@ -1,0 +1,22 @@
+Two-Stage Intent Classifier Evaluation Report
+============================================================
+
+Model: training/scripts/models/all-MiniLM-L6-v2/final
+Test data: training/data/processed
+Test examples: 1000
+
+Accuracy:  1.0000
+Precision: 1.0000
+Recall:    1.0000
+F1 Score:  1.0000
+Avg Confidence: 0.9634
+Avg Latency: 7.94ms
+
+Per-class Report:
+              precision    recall  f1-score   support
+
+   rag_query       1.00      1.00      1.00      1000
+
+    accuracy                           1.00      1000
+   macro avg       1.00      1.00      1.00      1000
+weighted avg       1.00      1.00      1.00      1000

@@ -1,0 +1,30 @@
+Two-Stage Intent Classifier Evaluation Report
+============================================================
+
+Model: training/scripts/models/distBert/final
+Test data: training/data/processed
+Test examples: 1000
+
+Accuracy:  0.9980
+Precision: 0.9980
+Recall:    0.9980
+F1 Score:  0.9980
+Avg Confidence: 0.9982
+Avg Latency: 11.62ms
+
+Per-class Report:
+               precision    recall  f1-score   support
+
+ aspirational       1.00      1.00      1.00        70
+     chitchat       1.00      1.00      1.00        67
+    emotional       1.00      1.00      1.00        62
+     learning       1.00      1.00      1.00        52
+    off_topic       1.00      1.00      1.00       463
+ professional       1.00      0.98      0.99        56
+psychological       0.98      0.98      0.98        57
+    rag_query       1.00      1.00      1.00       106
+       social       0.99      1.00      0.99        67
+
+     accuracy                           1.00      1000
+    macro avg       1.00      1.00      1.00      1000
+ weighted avg       1.00      1.00      1.00      1000

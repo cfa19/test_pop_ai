@@ -1,0 +1,29 @@
+Two-Stage Intent Classifier Evaluation Report
+============================================================
+
+Model: training/scripts/models/all-MiniLM-L6-v2/final
+Test data: training/data/processed
+Test examples: 1000
+
+Accuracy:  0.9870
+Precision: 0.9870
+Recall:    0.9870
+F1 Score:  0.9870
+Avg Confidence: 0.9486
+Avg Latency: 6.47ms
+
+Per-class Report:
+               precision    recall  f1-score   support
+
+ aspirational       0.97      0.97      0.97       120
+     chitchat       1.00      1.00      1.00       104
+    emotional       0.99      1.00      1.00       133
+     learning       0.98      0.97      0.98       110
+ professional       0.98      0.95      0.97       102
+psychological       0.98      1.00      0.99       124
+    rag_query       1.00      1.00      1.00       186
+       social       0.98      0.98      0.98       121
+
+     accuracy                           0.99      1000
+    macro avg       0.99      0.99      0.99      1000
+ weighted avg       0.99      0.99      0.99      1000

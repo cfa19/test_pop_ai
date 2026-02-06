@@ -1,0 +1,29 @@
+Two-Stage Intent Classifier Evaluation Report
+============================================================
+
+Model: training/scripts/models/deberta-v3-small/final
+Test data: training/data/processed
+Test examples: 1000
+
+Accuracy:  0.1960
+Precision: 0.0384
+Recall:    0.1960
+F1 Score:  0.0642
+Avg Confidence: nan
+Avg Latency: 15.38ms
+
+Per-class Report:
+               precision    recall  f1-score   support
+
+ aspirational       0.00      0.00      0.00       124
+     chitchat       0.00      0.00      0.00        96
+    emotional       0.00      0.00      0.00       130
+     learning       0.00      0.00      0.00       118
+ professional       0.00      0.00      0.00       109
+psychological       0.00      0.00      0.00       119
+    rag_query       0.20      1.00      0.33       196
+       social       0.00      0.00      0.00       108
+
+     accuracy                           0.20      1000
+    macro avg       0.02      0.12      0.04      1000
+ weighted avg       0.04      0.20      0.06      1000

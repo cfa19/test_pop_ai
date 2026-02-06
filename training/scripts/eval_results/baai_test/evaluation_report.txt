@@ -1,0 +1,29 @@
+Two-Stage Intent Classifier Evaluation Report
+============================================================
+
+Model: training/scripts/models/BAAI/final
+Test data: training/data/processed
+Test examples: 1000
+
+Accuracy:  0.9950
+Precision: 0.9951
+Recall:    0.9950
+F1 Score:  0.9950
+Avg Confidence: 0.9158
+Avg Latency: 9.65ms
+
+Per-class Report:
+               precision    recall  f1-score   support
+
+ aspirational       0.98      1.00      0.99       120
+     chitchat       1.00      1.00      1.00       104
+    emotional       0.98      1.00      0.99       133
+     learning       1.00      1.00      1.00       110
+ professional       1.00      0.98      0.99       102
+psychological       1.00      0.99      1.00       124
+    rag_query       1.00      1.00      1.00       186
+       social       1.00      0.98      0.99       121
+
+     accuracy                           0.99      1000
+    macro avg       1.00      0.99      0.99      1000
+ weighted avg       1.00      0.99      1.00      1000
