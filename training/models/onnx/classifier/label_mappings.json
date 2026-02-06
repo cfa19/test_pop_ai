@@ -1,0 +1,35 @@
+{
+  "label2id": {
+    "rag_query": 0,
+    "professional": 1,
+    "psychological": 2,
+    "learning": 3,
+    "social": 4,
+    "emotional": 5,
+    "aspirational": 6,
+    "chitchat": 7,
+    "off_topic": 8
+  },
+  "id2label": {
+    "0": "rag_query",
+    "1": "professional",
+    "2": "psychological",
+    "3": "learning",
+    "4": "social",
+    "5": "emotional",
+    "6": "aspirational",
+    "7": "chitchat",
+    "8": "off_topic"
+  },
+  "categories": [
+    "rag_query",
+    "professional",
+    "psychological",
+    "learning",
+    "social",
+    "emotional",
+    "aspirational",
+    "chitchat",
+    "off_topic"
+  ]
+}

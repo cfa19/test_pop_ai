@@ -1,0 +1,14 @@
+{
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "categories": [
+    "rag_query",
+    "professional",
+    "psychological",
+    "learning",
+    "social",
+    "emotional",
+    "aspirational",
+    "chitchat"
+  ],
+  "num_centroids": 8
+}
